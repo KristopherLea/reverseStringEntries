@@ -1,0 +1,21 @@
+package reverseStringEntry;
+
+public class entry {
+
+	public static StringBuilder main(String[] args) throws Exception{
+		// TODO Auto-generated method stub
+		String words[] = {"docement", "file", "spreadsheet", "store", "data"};
+        StringBuilder sb = new StringBuilder();
+    if(words.length ==0){
+      throw new Exception("Empty");
+    }
+  
+    for(int i = words.length - 1; i >=0; i--){
+      sb.append(words[i]);
+     
+    }
+    return sb;
+   
+}
+	
+}
